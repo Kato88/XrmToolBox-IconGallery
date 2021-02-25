@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconGallery", "IconGallery\IconGallery.csproj", "{DB724D27-979C-4877-BF30-F2CE2E75506D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB724D27-979C-4877-BF30-F2CE2E75506D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB724D27-979C-4877-BF30-F2CE2E75506D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB724D27-979C-4877-BF30-F2CE2E75506D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB724D27-979C-4877-BF30-F2CE2E75506D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8486EEEE-AF99-4D3C-B416-D6887F084184}
+	EndGlobalSection
+EndGlobal

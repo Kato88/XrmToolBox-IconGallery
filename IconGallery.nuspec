@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SirKato.XrmToolBox.IconGallery</id>
+    <version>1.0.0</version>
+    <title>Icon Gallery for XrmToolBox</title>
+    <authors>SirKato</authors>
+    <owners>SirKato</owners>
+    <projectUrl>https://github.com/Kato88/XrmToolBox-IconGallery</projectUrl>
+    <icon>logo.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<license type="expression">MIT</license>
+    <summary>A XrmToolBox plugin to display available images and icons in a gallery.</summary>
+    <description>A XrmToolBox plugin to display available images and icons in a gallery.</description>
+    <releaseNotes>
+      Initial Release
+    </releaseNotes>
+    <copyright>Copyright SirKato 2021</copyright>
+    <tags>XrmToolBox IconGallery</tags>
+    <dependencies>
+      <dependency id="XrmToolBox" version="1.2021.2.45" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="IconGallery\bin\Release\ILMerge\SirKato.XrmToolBox.IconGallery.dll" target="lib\net472\Plugins" />
+	<file src="logo.png" target="" />
+  </files>
+</package>
