@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>SirKato.XrmToolBox.IconGallery</id>
-    <version>1.0.0.1</version>
+    <version>1.0.0.2</version>
     <title>Icon Gallery for XrmToolBox</title>
     <authors>SirKato</authors>
     <owners>SirKato</owners>
@@ -22,7 +22,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="IconGallery\bin\Release\ILMerge\SirKato.XrmToolBox.IconGallery.dll" target="lib\net472\Plugins" />
+    <file src="IconGallery\bin\Release\Plugins\SirKato.XrmToolBox.IconGallery.dll" target="lib\net472\Plugins" />
 	<file src="logo.png" target="" />
   </files>
 </package>

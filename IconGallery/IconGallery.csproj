@@ -183,7 +183,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="IconGallery.nuspec" />
     <None Include="ILMergeConfig.json" />
     <None Include="packages.config" />
   </ItemGroup>
@@ -201,10 +200,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>if $(ConfigurationName) == Debug (
-  IF NOT EXIST Plugins mkdir Plugins
-  move /Y ILMerge\SirKato.XrmToolBox.IconGallery.dll Plugins
-)</PostBuildEvent>
+    <PostBuildEvent>IF NOT EXIST Plugins mkdir Plugins
+  move /Y ILMerge\SirKato.XrmToolBox.IconGallery.dll Plugins</PostBuildEvent>
   </PropertyGroup>
   <Import Project="..\packages\ILMerge.MSBuild.Task.1.0.7\build\ILMerge.MSBuild.Task.targets" Condition="Exists('..\packages\ILMerge.MSBuild.Task.1.0.7\build\ILMerge.MSBuild.Task.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
